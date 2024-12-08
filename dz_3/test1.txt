@@ -1,0 +1,10 @@
+* Конфигурация веб-сервера
+let port = 8080
+let address = localhost
+
+@{
+    name = WebServer;
+    host = $(address);
+    port = $(port);
+    ssl = false;
+}
